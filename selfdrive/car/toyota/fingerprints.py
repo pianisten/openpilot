@@ -1137,6 +1137,12 @@ FW_VERSIONS = {
       b'\x028646F0R02100\x00\x00\x00\x008646G0R01100\x00\x00\x00\x00',
       b'\x028646F0H01200\x00\x00\x00\x008646G0H01200\x00\x00\x00\x00',
     ],
+    (Ecu.transmission, 0x701, None): [
+      b'\x01895367015000\x00\x00\x00\x00',
+    ],
+    (Ecu.srs, 0x780, None): [
+      b'\x018917F0H10100\x00\x00\x00\x00',
+    ],
   },
   CAR.RAV4_TSS2_2023: {
     (Ecu.abs, 0x7b0, None): [
